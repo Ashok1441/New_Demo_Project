@@ -100,7 +100,7 @@
 				<version>3.0.0-M7</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>${XMLfiles}</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
 						<browser>${Browser}</browser>
