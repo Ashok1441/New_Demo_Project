@@ -5,7 +5,7 @@
 		<listener class-name="com.UtilityClass.MyListeners"></listener>
 	</listeners>
 	<test thread-count="5" name="Test">
-		<!-- <parameter name="Browser" value="chrome"></parameter>-->
+		<parameter name="Browser" value="firefox"></parameter>
 		<classes>
 			<class name="com.actitime.test.VerifyPageTitles" />
 		</classes>
